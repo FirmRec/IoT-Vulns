@@ -20,6 +20,7 @@ This vulnerability lies in the `setaccount` function in `httpd` binary on certai
 There is a **stack-based buffer overflow** vulnerability in function `setaccount`. An attacker can set `list` field in requests to launch a denial-of-service or remote-code-execution attack.
 
 ![Vulnerability Function](./vuln1.png)
+
 ![Memset Function](./vuln2.png)
 
 In function `setaccount` it reads user provided parameter `list` into `pcVar1`, this variable is passed to the `set_list` field of `mess`, which was allocated a limited memory space.
