@@ -1,4 +1,4 @@
-# Tenda Vulnerability
+# Tenda Router Vulnerability on addWifiMacFilter function
 
 This vulnerability lies in the `addWifiMacFilter` function in `httpd` binary on certain Tenda devices.
 
