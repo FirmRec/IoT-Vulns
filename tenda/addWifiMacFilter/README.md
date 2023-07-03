@@ -17,7 +17,7 @@ This vulnerability lies in the `addWifiMacFilter` function in `httpd` binary on 
   * AC9 V3.0 V15.03.06.42_multi
   * FH1205 V2.0.0.7(775)
 
-There is a **stack-based buffer overflow** vulnerability in function `addWifiMacFilter`. After authentication, an attacker can set `deviceId` field in requests to launch a denial-of-service or remote-code-execution attack.
+There is a **stack-based buffer overflow** vulnerability in function `addWifiMacFilter`. An attacker can set `deviceId` field in requests to launch a denial-of-service or remote-code-execution attack.
 
 ![Vulnerability Function](./vuln.png)
 
