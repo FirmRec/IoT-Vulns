@@ -11,3 +11,5 @@ In function `fromAddressNat` it reads user provided parameter `entrys` and `mitI
 ![Vulnerability Function](./vuln.png)
 
 ## Timeline
+
+* 2023-07-10: CVE ID assigned (CVE-2023-37706)
