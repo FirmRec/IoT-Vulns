@@ -11,3 +11,5 @@ In function `formSetSpeedWan` it reads user provided parameter `speed_dir` into 
 ![Vulnerability Function](./vuln.png)
 
 ## Timeline
+
+* 2023-07-10: CVE ID assigned (CVE-2023-37703)
