@@ -26,3 +26,4 @@ response = requests.get(url)
 
 ## Timeline
 
+* 2023-07-10: CVE ID assigned (CVE-2023-37710)
