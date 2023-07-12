@@ -12,4 +12,4 @@ In function `addWifiMacFilter` it reads user provided parameter `deviceId` into 
 
 ## Timeline
 
-* CVE ID assigned (CVE-2023-37701)
+* 2023-07-10: CVE ID assigned (CVE-2023-37701)
