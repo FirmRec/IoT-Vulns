@@ -11,3 +11,5 @@ In function `form_fast_setting_wifi_set` it reads user provided parameter `ssid`
 ![Vulnerability Function](./vuln.png)
 
 ## Timeline
+
+* 2023-07-10: CVE ID assigned (CVE-2023-37700)
