@@ -11,3 +11,5 @@ In function `formSetClientState` it reads user provided parameter `deviceId` int
 ![Vulnerability Function](./vuln.png)
 
 ## Timeline
+
+* 2023-07-10: CVE ID assigned (CVE-2023-37704)
