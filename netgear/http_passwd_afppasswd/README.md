@@ -25,7 +25,7 @@ Following are products and versions where we found the vulnerability. Other prod
 
 ## The Vulnerability
 
-An authenticated attacker can change the `http_passwd` in `admin_account.cgi` and trigger the vulnerability by setting the nvram variable `"afpd_enable"` to `1` and the vulnerability can be triggered.
+An authenticated attacker can change the `http_passwd` in `admin_account.cgi` functionality, which reside in `usr/sbin/httpd` binary and trigger the vulnerability by setting the nvram variable `"afpd_enable"` to `1` and the vulnerability can be triggered.
 
 To trigger the vulnerability, the attacker can set password to a long string like `'a' * 0x200` or a command starting and ending with `';'` through admin.cgi, where the password is not validated before writing to nvram
 
